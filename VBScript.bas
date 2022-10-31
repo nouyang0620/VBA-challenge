@@ -3,7 +3,6 @@ Attribute VB_Name = "Module1"
 ' Part 2: Output ticker symbol, yearly change from opening price at beginning of given year to closing price at the end of that year,
     ' Percentage change from opening price at beginning of year to closing at end of that year, total stock volume of the stock.
 ' Part 3: Use conditional formatting to highlight pos change in green and neg change in red
-' Part 4: BONUS - Return greatest % increase, greatest % decrease, & greatest total volume
 
 
 
@@ -22,7 +21,7 @@ Sub MultiYearStockData():
     Dim TotalVolume As Double
     Dim StartRow As Integer
     Dim LastRow As String
-    'Dim PrevRow As Integer
+    
     
     Dim Increase As Double
     Dim Decrease As Double
